@@ -77,7 +77,7 @@ const EditButton = styled.span`
 `
 
 function TodoList() {
-  // useStateによりstateの管理を行う。todosを変更するためのメソッドがsetTodos。 useState([])は初期値は空の配列。
+  // useStateによりstateの管理を行う。todosを変更するためのメソッドがsetTodos。useState([])は初期値は空の配列。
   const [todos, setTodos] = useState([])
   // 検索機能で使う。searchNameを変更するためのメソッドsetSearchName
   const [searchName, setSearchName] = useState('')
